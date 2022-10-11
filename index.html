@@ -404,6 +404,20 @@
                 </button>
             </div>
         </div>
+        <div class="row">
+            <div class="col">
+                <button type="button m-2" class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal3">
+                    モーダルを開く（文字が多い場合）
+                </button>
+            </div>
+            <div class="col">
+                <button type="button m-2" class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal4">
+                    全画面モーダルを開く（文字が多い場合）
+                </button>
+            </div>
+        </div>
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -426,11 +440,49 @@
             <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">変更</h1>
+                        <h1 class="modal-title fs-5" id="exampleModalLabel2">変更</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         テストです。全画面モーダルです。変更を保存しますか？
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">閉じる</button>
+                        <button type="button" class="btn btn-primary">変更を保存する</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel3">変更</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        先ほど入力したメールアドレスに確認メールを送信しました。確認メールに記載されているURLを30分以内に開いて、アカウント登録を完了してください。<br />
+                        スマートフォンのメール受信用のアプリを起動し、メールを確認してください。
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">閉じる</button>
+                        <button type="button" class="btn btn-primary">変更を保存する</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4"
+            aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel4">変更</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        先ほど入力したメールアドレスに確認メールを送信しました。確認メールに記載されているURLを30分以内に開いて、アカウント登録を完了してください。<br />
+                        スマートフォンのメール受信用のアプリを起動し、メールを確認してください。
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">閉じる</button>
